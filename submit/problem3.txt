@@ -1,0 +1,99 @@
+1. Number of tuples by running field insensitive analysis:
+131
+From output: "Saving results: SIZE OF hP: 131."
+
+2. The output tuples from the new hp relation (field insensitive):
+global(null) || AddressBook.java:37 Concrete: String @ 1
+global(null) || AddressBook.java:38 Concrete: String @ 2
+global(null) || AddressBook.java:39 Concrete: String @ 3
+global(null) || AddressBook.java:41 Concrete: String @ 4
+global(null) || AddressBook.java:42 Concrete: String @ 5
+global(null) || AddressBook.java:44 Concrete: String @ 6
+global(null) || AddressBook.java:45 Concrete: String @ 7
+global(null) || AddressBook.java:47 Concrete: String @ 8
+global(null) || AddressBook.java:48 Concrete: String @ 9
+global(null) || AddressBook.java:61 Concrete: AddressBook @ 1
+AddressBook.java:61 Concrete: AddressBook @ 1 || AddressBook.java:53 Concrete: LinkedList @ 3
+AddressBook.java:63 Concrete: MaleRecord @ 6 || AddressBook.java:37 Concrete: String @ 1
+AddressBook.java:63 Concrete: MaleRecord @ 6 || AddressBook.java:38 Concrete: String @ 2
+AddressBook.java:63 Concrete: MaleRecord @ 6 || AddressBook.java:39 Concrete: String @ 3
+AddressBook.java:63 Concrete: MaleRecord @ 6 || AddressBook.java:41 Concrete: String @ 4
+AddressBook.java:63 Concrete: MaleRecord @ 6 || AddressBook.java:42 Concrete: String @ 5
+AddressBook.java:63 Concrete: MaleRecord @ 6 || AddressBook.java:44 Concrete: String @ 6
+AddressBook.java:63 Concrete: MaleRecord @ 6 || AddressBook.java:45 Concrete: String @ 7
+AddressBook.java:63 Concrete: MaleRecord @ 6 || AddressBook.java:47 Concrete: String @ 8
+AddressBook.java:63 Concrete: MaleRecord @ 6 || AddressBook.java:48 Concrete: String @ 9
+AddressBook.java:64 Concrete: MaleRecord @ 13 || AddressBook.java:37 Concrete: String @ 1
+AddressBook.java:66 Concrete: FemaleRecord @ 20 || AddressBook.java:37 Concrete: String @ 1
+AddressBook.java:67 Concrete: FemaleRecord @ 27 || AddressBook.java:37 Concrete: String @ 1
+AddressBook.java:69 Concrete: MaleRecord @ 34 || AddressBook.java:37 Concrete: String @ 1
+AddressBook.java:64 Concrete: MaleRecord @ 13 || AddressBook.java:38 Concrete: String @ 2
+AddressBook.java:64 Concrete: MaleRecord @ 13 || AddressBook.java:39 Concrete: String @ 3
+AddressBook.java:66 Concrete: FemaleRecord @ 20 || AddressBook.java:38 Concrete: String @ 2
+AddressBook.java:66 Concrete: FemaleRecord @ 20 || AddressBook.java:39 Concrete: String @ 3
+AddressBook.java:67 Concrete: FemaleRecord @ 27 || AddressBook.java:38 Concrete: String @ 2
+AddressBook.java:67 Concrete: FemaleRecord @ 27 || AddressBook.java:39 Concrete: String @ 3
+AddressBook.java:69 Concrete: MaleRecord @ 34 || AddressBook.java:38 Concrete: String @ 2
+AddressBook.java:69 Concrete: MaleRecord @ 34 || AddressBook.java:39 Concrete: String @ 3
+AddressBook.java:64 Concrete: MaleRecord @ 13 || AddressBook.java:41 Concrete: String @ 4
+AddressBook.java:64 Concrete: MaleRecord @ 13 || AddressBook.java:42 Concrete: String @ 5
+AddressBook.java:64 Concrete: MaleRecord @ 13 || AddressBook.java:44 Concrete: String @ 6
+AddressBook.java:64 Concrete: MaleRecord @ 13 || AddressBook.java:45 Concrete: String @ 7
+AddressBook.java:66 Concrete: FemaleRecord @ 20 || AddressBook.java:41 Concrete: String @ 4
+AddressBook.java:66 Concrete: FemaleRecord @ 20 || AddressBook.java:42 Concrete: String @ 5
+AddressBook.java:66 Concrete: FemaleRecord @ 20 || AddressBook.java:44 Concrete: String @ 6
+AddressBook.java:66 Concrete: FemaleRecord @ 20 || AddressBook.java:45 Concrete: String @ 7
+AddressBook.java:67 Concrete: FemaleRecord @ 27 || AddressBook.java:41 Concrete: String @ 4
+AddressBook.java:67 Concrete: FemaleRecord @ 27 || AddressBook.java:42 Concrete: String @ 5
+AddressBook.java:67 Concrete: FemaleRecord @ 27 || AddressBook.java:44 Concrete: String @ 6
+AddressBook.java:67 Concrete: FemaleRecord @ 27 || AddressBook.java:45 Concrete: String @ 7
+AddressBook.java:69 Concrete: MaleRecord @ 34 || AddressBook.java:41 Concrete: String @ 4
+AddressBook.java:69 Concrete: MaleRecord @ 34 || AddressBook.java:42 Concrete: String @ 5
+AddressBook.java:69 Concrete: MaleRecord @ 34 || AddressBook.java:44 Concrete: String @ 6
+AddressBook.java:69 Concrete: MaleRecord @ 34 || AddressBook.java:45 Concrete: String @ 7
+AddressBook.java:64 Concrete: MaleRecord @ 13 || AddressBook.java:47 Concrete: String @ 8
+AddressBook.java:64 Concrete: MaleRecord @ 13 || AddressBook.java:48 Concrete: String @ 9
+AddressBook.java:66 Concrete: FemaleRecord @ 20 || AddressBook.java:47 Concrete: String @ 8
+AddressBook.java:66 Concrete: FemaleRecord @ 20 || AddressBook.java:48 Concrete: String @ 9
+AddressBook.java:67 Concrete: FemaleRecord @ 27 || AddressBook.java:47 Concrete: String @ 8
+AddressBook.java:67 Concrete: FemaleRecord @ 27 || AddressBook.java:48 Concrete: String @ 9
+AddressBook.java:69 Concrete: MaleRecord @ 34 || AddressBook.java:47 Concrete: String @ 8
+AddressBook.java:69 Concrete: MaleRecord @ 34 || AddressBook.java:48 Concrete: String @ 9
+AddressBook.java:53 Concrete: LinkedList @ 3 || LinkedList.java:95 Concrete: LinkedList$Entry @ 3
+LinkedList.java:795 Concrete: LinkedList$Entry @ 1 || AddressBook.java:63 Concrete: MaleRecord @ 6
+LinkedList.java:795 Concrete: LinkedList$Entry @ 1 || AddressBook.java:66 Concrete: FemaleRecord @ 20
+LinkedList.java:795 Concrete: LinkedList$Entry @ 1 || AddressBook.java:67 Concrete: FemaleRecord @ 27
+LinkedList.java:795 Concrete: LinkedList$Entry @ 1 || AddressBook.java:69 Concrete: MaleRecord @ 34
+
+
+3. Reasoning behind why there is an increase or decrease from the original number of tuples:
+There was an increase in the number of hP tuples from 100 to 131 since field-insensitivity removed
+a constraint (field) on the hP and the cVP load rules. Since hP (ha:H0, hb:H1) is now true whenever
+any field of ha may point to hb: if ha has multiple fields, ha can point to multiple heap objects.
+This would still make the number of hP remain the same. 
+However, the interesting thing happens when a load happens from ha. Lets say ha has fields x,y,z 
+pointing to different heap objects A,B,C of type assignable to v. Then after the instruction:
+v = ha.x;
+v can point to A,B,C. In a field-sensitive analysis, v could have pointed to A only. 
+
+Similiarly in our AddressBook.java, loads from AddressBook is insensitive to the fields 
+joe,joeEmail,joeAltEmail...mainAddressBook. Since all the fields except mainAddressBook point to 
+Strings heap objects which are assignable to Record.name and Record.emailAddr, the instruction
+"Record joeRecord = new MaleRecord(joe, joeEmail);" ultimately causes the heap object pointed
+by joeRecord to be able to possibly point to all the String objects pointed by AddressBook's fields.
+
+Below are the corresponding field sensitive and field insensitive tuples:
+Field sensitive tuples:
+AddressBook.java:63 Concrete: MaleRecord @ 6 || Record/name || AddressBook.java:37 Concrete: String @ 1
+AddressBook.java:63 Concrete: MaleRecord @ 6 || Record/emailAddr || AddressBook.java:38 Concrete: String @ 2
+
+Field-insensitive tuples:
+AddressBook.java:63 Concrete: MaleRecord @ 6 || AddressBook.java:37 Concrete: String @ 1
+AddressBook.java:63 Concrete: MaleRecord @ 6 || AddressBook.java:38 Concrete: String @ 2
+AddressBook.java:63 Concrete: MaleRecord @ 6 || AddressBook.java:39 Concrete: String @ 3
+AddressBook.java:63 Concrete: MaleRecord @ 6 || AddressBook.java:41 Concrete: String @ 4
+AddressBook.java:63 Concrete: MaleRecord @ 6 || AddressBook.java:42 Concrete: String @ 5
+AddressBook.java:63 Concrete: MaleRecord @ 6 || AddressBook.java:44 Concrete: String @ 6
+AddressBook.java:63 Concrete: MaleRecord @ 6 || AddressBook.java:45 Concrete: String @ 7
+AddressBook.java:63 Concrete: MaleRecord @ 6 || AddressBook.java:47 Concrete: String @ 8
+AddressBook.java:63 Concrete: MaleRecord @ 6 || AddressBook.java:48 Concrete: String @ 9
