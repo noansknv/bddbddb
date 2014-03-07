@@ -1,0 +1,142 @@
+1. Output of running analysis pa.dtl on AddressBook:
+global(null) || AddressBook/joe || AddressBook.java:37 Concrete: String @ 1
+global(null) || AddressBook/joeEmail || AddressBook.java:38 Concrete: String @ 2
+global(null) || AddressBook/joeAltEmail || AddressBook.java:39 Concrete: String @ 3
+global(null) || AddressBook/mary || AddressBook.java:41 Concrete: String @ 4
+global(null) || AddressBook/maryEmail || AddressBook.java:42 Concrete: String @ 5
+global(null) || AddressBook/bob || AddressBook.java:44 Concrete: String @ 6
+global(null) || AddressBook/bobEmail || AddressBook.java:45 Concrete: String @ 7
+global(null) || AddressBook/jane || AddressBook.java:47 Concrete: String @ 8
+global(null) || AddressBook/janeEmail || AddressBook.java:48 Concrete: String @ 9
+global(null) || AddressBook/mainAddressBook || AddressBook.java:61 Concrete: AddressBook @ 1
+AddressBook.java:63 Concrete: MaleRecord @ 6 || Record/name || AddressBook.java:37 Concrete: String @ 1
+AddressBook.java:63 Concrete: MaleRecord @ 6 || Record/name || AddressBook.java:41 Concrete: String @ 4
+AddressBook.java:63 Concrete: MaleRecord @ 6 || Record/name || AddressBook.java:44 Concrete: String @ 6
+AddressBook.java:63 Concrete: MaleRecord @ 6 || Record/name || AddressBook.java:47 Concrete: String @ 8
+AddressBook.java:64 Concrete: MaleRecord @ 13 || Record/name || AddressBook.java:37 Concrete: String @ 1
+AddressBook.java:66 Concrete: FemaleRecord @ 20 || Record/name || AddressBook.java:37 Concrete: String @ 1
+AddressBook.java:67 Concrete: FemaleRecord @ 27 || Record/name || AddressBook.java:37 Concrete: String @ 1
+AddressBook.java:69 Concrete: MaleRecord @ 34 || Record/name || AddressBook.java:37 Concrete: String @ 1
+AddressBook.java:64 Concrete: MaleRecord @ 13 || Record/name || AddressBook.java:41 Concrete: String @ 4
+AddressBook.java:64 Concrete: MaleRecord @ 13 || Record/name || AddressBook.java:44 Concrete: String @ 6
+AddressBook.java:66 Concrete: FemaleRecord @ 20 || Record/name || AddressBook.java:41 Concrete: String @ 4
+AddressBook.java:66 Concrete: FemaleRecord @ 20 || Record/name || AddressBook.java:44 Concrete: String @ 6
+AddressBook.java:67 Concrete: FemaleRecord @ 27 || Record/name || AddressBook.java:41 Concrete: String @ 4
+AddressBook.java:67 Concrete: FemaleRecord @ 27 || Record/name || AddressBook.java:44 Concrete: String @ 6
+AddressBook.java:69 Concrete: MaleRecord @ 34 || Record/name || AddressBook.java:41 Concrete: String @ 4
+AddressBook.java:69 Concrete: MaleRecord @ 34 || Record/name || AddressBook.java:44 Concrete: String @ 6
+AddressBook.java:64 Concrete: MaleRecord @ 13 || Record/name || AddressBook.java:47 Concrete: String @ 8
+AddressBook.java:66 Concrete: FemaleRecord @ 20 || Record/name || AddressBook.java:47 Concrete: String @ 8
+AddressBook.java:67 Concrete: FemaleRecord @ 27 || Record/name || AddressBook.java:47 Concrete: String @ 8
+AddressBook.java:69 Concrete: MaleRecord @ 34 || Record/name || AddressBook.java:47 Concrete: String @ 8
+AddressBook.java:63 Concrete: MaleRecord @ 6 || Record/emailAddr || AddressBook.java:38 Concrete: String @ 2
+AddressBook.java:63 Concrete: MaleRecord @ 6 || Record/emailAddr || AddressBook.java:39 Concrete: String @ 3
+AddressBook.java:63 Concrete: MaleRecord @ 6 || Record/emailAddr || AddressBook.java:42 Concrete: String @ 5
+AddressBook.java:63 Concrete: MaleRecord @ 6 || Record/emailAddr || AddressBook.java:45 Concrete: String @ 7
+AddressBook.java:64 Concrete: MaleRecord @ 13 || Record/emailAddr || AddressBook.java:38 Concrete: String @ 2
+AddressBook.java:64 Concrete: MaleRecord @ 13 || Record/emailAddr || AddressBook.java:39 Concrete: String @ 3
+AddressBook.java:66 Concrete: FemaleRecord @ 20 || Record/emailAddr || AddressBook.java:38 Concrete: String @ 2
+AddressBook.java:66 Concrete: FemaleRecord @ 20 || Record/emailAddr || AddressBook.java:39 Concrete: String @ 3
+AddressBook.java:67 Concrete: FemaleRecord @ 27 || Record/emailAddr || AddressBook.java:38 Concrete: String @ 2
+AddressBook.java:67 Concrete: FemaleRecord @ 27 || Record/emailAddr || AddressBook.java:39 Concrete: String @ 3
+AddressBook.java:69 Concrete: MaleRecord @ 34 || Record/emailAddr || AddressBook.java:38 Concrete: String @ 2
+AddressBook.java:69 Concrete: MaleRecord @ 34 || Record/emailAddr || AddressBook.java:39 Concrete: String @ 3
+AddressBook.java:64 Concrete: MaleRecord @ 13 || Record/emailAddr || AddressBook.java:42 Concrete: String @ 5
+AddressBook.java:64 Concrete: MaleRecord @ 13 || Record/emailAddr || AddressBook.java:45 Concrete: String @ 7
+AddressBook.java:66 Concrete: FemaleRecord @ 20 || Record/emailAddr || AddressBook.java:42 Concrete: String @ 5
+AddressBook.java:66 Concrete: FemaleRecord @ 20 || Record/emailAddr || AddressBook.java:45 Concrete: String @ 7
+AddressBook.java:67 Concrete: FemaleRecord @ 27 || Record/emailAddr || AddressBook.java:42 Concrete: String @ 5
+AddressBook.java:67 Concrete: FemaleRecord @ 27 || Record/emailAddr || AddressBook.java:45 Concrete: String @ 7
+AddressBook.java:69 Concrete: MaleRecord @ 34 || Record/emailAddr || AddressBook.java:42 Concrete: String @ 5
+AddressBook.java:69 Concrete: MaleRecord @ 34 || Record/emailAddr || AddressBook.java:45 Concrete: String @ 7
+AddressBook.java:61 Concrete: AddressBook @ 1 || AddressBook/records || AddressBook.java:53 Concrete: LinkedList @ 3
+AddressBook.java:53 Concrete: LinkedList @ 3 || java/util/LinkedList/header || LinkedList.java:95 Concrete: LinkedList$Entry @ 3
+LinkedList.java:95 Concrete: LinkedList$Entry @ 3 || java/util/LinkedList/Entry/element || AddressBook.java:63 Concrete: MaleRecord @ 6
+LinkedList.java:95 Concrete: LinkedList$Entry @ 3 || java/util/LinkedList/Entry/element || AddressBook.java:66 Concrete: FemaleRecord @ 20
+LinkedList.java:95 Concrete: LinkedList$Entry @ 3 || java/util/LinkedList/Entry/element || AddressBook.java:67 Concrete: FemaleRecord @ 27
+LinkedList.java:95 Concrete: LinkedList$Entry @ 3 || java/util/LinkedList/Entry/element || AddressBook.java:69 Concrete: MaleRecord @ 34
+LinkedList.java:795 Concrete: LinkedList$Entry @ 1 || java/util/LinkedList/Entry/element || AddressBook.java:63 Concrete: MaleRecord @ 6
+LinkedList.java:795 Concrete: LinkedList$Entry @ 1 || java/util/LinkedList/Entry/element || AddressBook.java:66 Concrete: FemaleRecord @ 20
+LinkedList.java:795 Concrete: LinkedList$Entry @ 1 || java/util/LinkedList/Entry/element || AddressBook.java:67 Concrete: FemaleRecord @ 27
+LinkedList.java:795 Concrete: LinkedList$Entry @ 1 || java/util/LinkedList/Entry/element || AddressBook.java:69 Concrete: MaleRecord @ 34
+
+
+
+2. Comparison and analysis of output:
+In context insensitive pointer analysis, when a method containing formal pointer parameters is called with actual parameters
+pointing to different objects in different contexts, the formal parameter in the single context of the method imprecisely
+is solved to have the possiblilty of pointing to all those different objects. If this formal parameter gets assigned
+to another pointer, the other pointer now inherits this impreciseness and can now point to all those different objects.
+
+
+In AddressBook, the Record(String name, String emailAddr, boolean isMale) constructor has the "name" and "emailAddr" pointers
+as formal parameters and these get assigned to "this.name" and "this.emailAddr". Thus when Record() is called with:
+    Record joeRecord = new MaleRecord(joe, joeEmail);
+    Record bobRecord = new MaleRecord(bob, bobEmail);
+    Record maryRecord = new FemaleRecord(mary, maryEmail);
+    Record janeRecord = new FemaleRecord(jane, maryEmail);
+    Record joeAltRecord = new MaleRecord(joe, joeAltEmail);
+The formal parameter "name" can now point to (joe,bob,mary,jane). The formal parameter "emailAddr" can now point to 
+(joeEmail,bobEmail,maryEmail,joeAltEmail) independent of the context! As a result joeRecord.name can now point to
+(joe,bob,mary,jane) instead of just joe, joeRecord.emailAddr can now point to (joeEmail,bobEmail,maryEmail,joeAltEmail)
+instead of just joeEmail. The same happens for all the other contexts for bobRecord, maryRecord, janeRecord, joeAltRecord.
+This is why we see the following in context-insensitive analysis:
+AddressBook.java:63 Concrete: MaleRecord @ 6 || Record/name || AddressBook.java:37 Concrete: String @ 1
+AddressBook.java:63 Concrete: MaleRecord @ 6 || Record/name || AddressBook.java:41 Concrete: String @ 4
+AddressBook.java:63 Concrete: MaleRecord @ 6 || Record/name || AddressBook.java:44 Concrete: String @ 6
+AddressBook.java:63 Concrete: MaleRecord @ 6 || Record/name || AddressBook.java:47 Concrete: String @ 8
+AddressBook.java:63 Concrete: MaleRecord @ 6 || Record/emailAddr || AddressBook.java:38 Concrete: String @ 2
+AddressBook.java:63 Concrete: MaleRecord @ 6 || Record/emailAddr || AddressBook.java:39 Concrete: String @ 3
+AddressBook.java:63 Concrete: MaleRecord @ 6 || Record/emailAddr || AddressBook.java:42 Concrete: String @ 5
+AddressBook.java:63 Concrete: MaleRecord @ 6 || Record/emailAddr || AddressBook.java:45 Concrete: String @ 7
+As opposed to the following in context sensitive analysis:
+AddressBook.java:63 Concrete: MaleRecord @ 6 || Record/name || AddressBook.java:37 Concrete: String @ 1
+AddressBook.java:63 Concrete: MaleRecord @ 6 || Record/emailAddr || AddressBook.java:38 Concrete: String @ 2
+The same can be observed for all the other MaleRecord and FemaleRecord objects.
+
+
+In LinkedList.java, (Source: http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/6-b14/java/util/LinkedList.java)
+line 95 contains the default initialization of a header entry pointer:
+95     private transient Entry<E> header = new Entry<E>(null, null, null);
+
+line 795 contains the addition of a element into the linkedlist in the addBefore method:
+794    private Entry<E> addBefore(E e, Entry<E> entry) {
+795        Entry<E> newEntry = new Entry<E>(e, entry, entry.previous);
+796        newEntry.previous.next = newEntry;
+797        newEntry.next.previous = newEntry;
+798        size++;
+799        modCount++;
+800        return newEntry;
+801    }
+This is likely the method called ultimately due to:
+    mainAddressBook.addRecord(joeRecord);
+    mainAddressBook.addRecord(maryRecord);
+    mainAddressBook.addRecord(janeRecord);
+    mainAddressBook.addRecord(joeAltRecord);
+in AddressBook.
+
+In the Entry() constructor has the pointer "E" as a formal parameter which gets assigned to "this.element". 
+787        Entry(E element, Entry<E> next, Entry<E> previous) {
+788            this.element = element;
+789            this.next = next;
+790            this.previous = previous;
+791        }
+The formal parameter "E" can now point to (joeRecord,maryRecord,janeRecord,joeAltRecord,null) and in the two contexts
+Entry() is called, header.element and newEntry.element can point to  (joeRecord,maryRecord,janeRecord,joeAltRecord,null)
+as opposed to header.element possibly pointing to (null) while newEntry.element possibly pointing to
+(joeRecord,maryRecord,janeRecord,joeAltRecord).
+
+This is why we see the following in context-insensitive analysis:
+LinkedList.java:95 Concrete: LinkedList$Entry @ 3 || java/util/LinkedList/Entry/element || AddressBook.java:63 Concrete: MaleRecord @ 6
+LinkedList.java:95 Concrete: LinkedList$Entry @ 3 || java/util/LinkedList/Entry/element || AddressBook.java:66 Concrete: FemaleRecord @ 20
+LinkedList.java:95 Concrete: LinkedList$Entry @ 3 || java/util/LinkedList/Entry/element || AddressBook.java:67 Concrete: FemaleRecord @ 27
+LinkedList.java:95 Concrete: LinkedList$Entry @ 3 || java/util/LinkedList/Entry/element || AddressBook.java:69 Concrete: MaleRecord @ 34
+LinkedList.java:795 Concrete: LinkedList$Entry @ 1 || java/util/LinkedList/Entry/element || AddressBook.java:63 Concrete: MaleRecord @ 6
+LinkedList.java:795 Concrete: LinkedList$Entry @ 1 || java/util/LinkedList/Entry/element || AddressBook.java:66 Concrete: FemaleRecord @ 20
+LinkedList.java:795 Concrete: LinkedList$Entry @ 1 || java/util/LinkedList/Entry/element || AddressBook.java:67 Concrete: FemaleRecord @ 27
+LinkedList.java:795 Concrete: LinkedList$Entry @ 1 || java/util/LinkedList/Entry/element || AddressBook.java:69 Concrete: MaleRecord @ 34
+As opposed to just the following in context sensitive analysis:
+LinkedList.java:795 Concrete: LinkedList$Entry @ 1 || java/util/LinkedList/Entry/element || AddressBook.java:63 Concrete: MaleRecord @ 6
+LinkedList.java:795 Concrete: LinkedList$Entry @ 1 || java/util/LinkedList/Entry/element || AddressBook.java:66 Concrete: FemaleRecord @ 20
+LinkedList.java:795 Concrete: LinkedList$Entry @ 1 || java/util/LinkedList/Entry/element || AddressBook.java:67 Concrete: FemaleRecord @ 27
+LinkedList.java:795 Concrete: LinkedList$Entry @ 1 || java/util/LinkedList/Entry/element || AddressBook.java:69 Concrete: MaleRecord @ 34
